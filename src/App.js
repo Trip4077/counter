@@ -48,13 +48,13 @@ function App() {
 
   useEffect(() => {
     countdownTimer();
-  }, [countdownTimer]);
+  });
 
   const timeStyles = {
     mx: 2,
     fontSize: '24px'
   }
-  console.log(countdownTime.countdownMinutes)
+
   return (
     <Box sx={{backgroundImage: `url(${BG})`, backgroundSize: "cover",
     height: "100vh",
