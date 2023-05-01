@@ -48,7 +48,7 @@ function App() {
 
   useEffect(() => {
     countdownTimer();
-  }, []);
+  }, [countdownTimer]);
 
   const timeStyles = {
     mx: 2,
